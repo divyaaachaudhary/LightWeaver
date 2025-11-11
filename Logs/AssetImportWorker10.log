@@ -1,0 +1,469 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.3f1 (c7638eb16d91) revision 13067150'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2025-11-11T19:41:13.4211136Z"
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-11T19:41:13Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/user/OneDrive/Desktop/Lightweaver
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+62270
+-licensingIpc
+LicenseClient-user
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/user/OneDrive/Desktop/Lightweaver
+C:/Users/user/OneDrive/Desktop/Lightweaver
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10492]  Target information:
+
+Player connection [10492]  * "[IP] 192.168.29.185 [Port] 0 [Flags] 2 [Guid] 130641837 [EditorId] 130641837 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8J5CEON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10492] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4948, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-user"
+[Licensing::IpcConnector] LicenseClient-user channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.2.3" at "2025-11-11T19:41:13.4881989Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17624, path: "C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              82cdf8d20ee34a34b0b73ef256f0e36c
+  Correlation Id:          1391094a60b0a9763fa89f6c40dd30b3
+  External correlation Id: 9126217988217816596
+  Machine Id:              We9B7a4N6r+5tcpwe8P1Khxwp2Q=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user-6000.2.3" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.2.3-notifications" at "2025-11-11T19:41:13.5035525Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.3f1 (c7638eb16d91)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/OneDrive/Desktop/Lightweaver/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.15.7703
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469600843409-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006951 seconds.
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 260 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (167ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (623ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (367ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.783 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1629ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6113 unused Assets / (4.4 MB). Loaded Objects now: 6844.
+Memory consumption went from 143.8 MB to 139.4 MB.
+Total: 8.625900 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.595300 ms MarkObjects: 5.006000 ms  DeleteObjects: 2.301300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9417.809977 seconds.
+  path: Assets/SimpleNaturePack/Models/Flowers_02.fbx
+  artifactKey: Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Flowers_02.fbx using Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '301096c8cf8ac31f9e228cc64bb4118b') in 0.8396696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.637018 seconds.
+  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51eb3775791cd3dd0e82b9c0dbee659') in 0.1141047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.839113 seconds.
+  path: Assets/Toon Crystals pack/Textures/FlyingCrystal_N.tga
+  artifactKey: Guid(0425168fb16a2cd4c88e15b9ceedcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/FlyingCrystal_N.tga using Guid(0425168fb16a2cd4c88e15b9ceedcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dad8c4dc5a7fe0973fc76798a6474a9') in 0.2046973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Crystals pack/Textures/Rocks_Diff_Gray.tga
+  artifactKey: Guid(fc271ca6bd07310489349a3d548adf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/Rocks_Diff_Gray.tga using Guid(fc271ca6bd07310489349a3d548adf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a961a3dffce9107915422643afc43843') in 0.0917144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Crystals pack/Textures/SmallCrystal_Blue.tga
+  artifactKey: Guid(0b12ed53d84398a4cbba0e66c1b97682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/SmallCrystal_Blue.tga using Guid(0b12ed53d84398a4cbba0e66c1b97682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f67b564ba938f004fa195ec5de6a7f2') in 0.0481618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Crystals pack/Textures/GemStone.tga
+  artifactKey: Guid(d4a51010f1a6df24baaa423efeeef37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/GemStone.tga using Guid(d4a51010f1a6df24baaa423efeeef37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385416ae250383314f486eff4cb095e2') in 0.054856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Crystals pack/Textures/HexahedralCrystal_Gold.tga
+  artifactKey: Guid(41f204d6f66a3df43a3d233f1eac7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/HexahedralCrystal_Gold.tga using Guid(41f204d6f66a3df43a3d233f1eac7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2edffab241166b3511838c02e3c6cfce') in 0.0590935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Crystals pack/Textures/MoonStone_Red.tga
+  artifactKey: Guid(c3f15fa201ecfe04c811d6dc6c75e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Textures/MoonStone_Red.tga using Guid(c3f15fa201ecfe04c811d6dc6c75e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3018f46e02169f358b3d98a75c9a1245') in 0.1672327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.877848 seconds.
+  path: Assets/Toon Crystals pack/Particles/Fel Glow.prefab
+  artifactKey: Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Particles/Fel Glow.prefab using Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1928c516b234f0fda80dc76e60f5c3c') in 0.1127848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.226301 seconds.
+  path: Assets/Toon Crystals pack/Meshes/BlueCrystal02.fbx
+  artifactKey: Guid(457eca26206b82d4abb8b1726747e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/BlueCrystal02.fbx using Guid(457eca26206b82d4abb8b1726747e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cb84f97f944c83494459e176218c8e8') in 0.1087336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Crystals pack/Meshes/Obsidian03.fbx
+  artifactKey: Guid(e5ad2c2d27bc1694086ef60038003da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/Obsidian03.fbx using Guid(e5ad2c2d27bc1694086ef60038003da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1993513d2fa8fd6a76127b4bd1e9c977') in 0.0815771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal05.fbx
+  artifactKey: Guid(7dcccdba733e9ac43a8438ecdef02267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal05.fbx using Guid(7dcccdba733e9ac43a8438ecdef02267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c99f930a4dfed53fbb5f4940b12254b') in 0.0887068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Crystals pack/Meshes/GemStone02.fbx
+  artifactKey: Guid(dded9448fd3136f4fa24fb4922f82991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/GemStone02.fbx using Guid(dded9448fd3136f4fa24fb4922f82991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b7a064d11ab94bbc496695ee5fcc8af') in 0.0846321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Crystals pack/Meshes/BlueCrystal12.fbx
+  artifactKey: Guid(e901c817f06c3894498d14a6b9b31ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/BlueCrystal12.fbx using Guid(e901c817f06c3894498d14a6b9b31ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81deedc2cc7dfcf832fb3a20204ce18b') in 0.0784729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal01.fbx
+  artifactKey: Guid(7021bcc4a2a2108459c31e269beb5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal01.fbx using Guid(7021bcc4a2a2108459c31e269beb5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fddbf8b5b56a2eb16f653e7c6c4b17bd') in 0.0938879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Crystals pack/Meshes/BlueCrystal11.fbx
+  artifactKey: Guid(afa932a3e30341d4f92007795c2c93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/BlueCrystal11.fbx using Guid(afa932a3e30341d4f92007795c2c93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '107b4757ee0dfe48a95a6aa76d44badd') in 0.0816532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Crystals pack/Meshes/BlueCrystal15.fbx
+  artifactKey: Guid(d76c2a466095cd14088427a6abffc0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/BlueCrystal15.fbx using Guid(d76c2a466095cd14088427a6abffc0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0d6c8fbe7e6be2869d60fc38ceeed9c') in 0.0928018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal00.fbx
+  artifactKey: Guid(0182e814e0408fe43b26cd6a3619c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal00.fbx using Guid(0182e814e0408fe43b26cd6a3619c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35731cc43020011832463bdde7c6cfa1') in 0.0834538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Crystals pack/Meshes/MoonStone00.fbx
+  artifactKey: Guid(456aa20c486e5da4c91e989620329b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/MoonStone00.fbx using Guid(456aa20c486e5da4c91e989620329b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f68c6259bb124c70f9242ab0afb4e969') in 0.0936013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal03.fbx
+  artifactKey: Guid(081d08347467ed24b8c511161124aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal03.fbx using Guid(081d08347467ed24b8c511161124aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cfbf0ccd3417d4869b4a8d492cfb1b9') in 0.0857782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001735 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal06.fbx
+  artifactKey: Guid(cf37fbb50d340464583f5479bccc6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal06.fbx using Guid(cf37fbb50d340464583f5479bccc6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0ec3b7a6726c9ba5f68cba61ca63c1a') in 0.0769877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Crystals pack/Meshes/Rock003.fbx
+  artifactKey: Guid(6b14efe779947f94c86aed3169771d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/Rock003.fbx using Guid(6b14efe779947f94c86aed3169771d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '556653174c1337834293d7ab6462e87d') in 0.0933324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal08.fbx
+  artifactKey: Guid(debc3d5841a96934a93fb5dd6e419912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal08.fbx using Guid(debc3d5841a96934a93fb5dd6e419912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce9b1484de7ca8190d543aaa3be0ea8') in 0.0899798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.014993 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal02.fbx
+  artifactKey: Guid(0226e8aa08ca38644a9e924ae4bd6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal02.fbx using Guid(0226e8aa08ca38644a9e924ae4bd6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba588f679ade352fe808463036501b57') in 0.0653112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal08 1.fbx
+  artifactKey: Guid(b7ef563ba71c2f24cace3ee4e6c71db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal08 1.fbx using Guid(b7ef563ba71c2f24cace3ee4e6c71db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e3218f2366ff1ca2f88ea6cf4fd537') in 0.0223097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal07.fbx
+  artifactKey: Guid(00a5cbcfb1094154887b3093afb2b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal07.fbx using Guid(00a5cbcfb1094154887b3093afb2b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd96ae65e037b9980b10984cbf2496175') in 0.022979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal02 1.fbx
+  artifactKey: Guid(56f731a18a607b84594104b4022b35c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal02 1.fbx using Guid(56f731a18a607b84594104b4022b35c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1e795bec15a376f41a6df68831c05c2') in 0.0366176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal01 1.fbx
+  artifactKey: Guid(b28ca2c4473f20b4490a532633a431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal01 1.fbx using Guid(b28ca2c4473f20b4490a532633a431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76abcffeb76ea4014f237b5645e02ff9') in 0.0218275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Crystals pack/Meshes/RedCrystal00 1.fbx
+  artifactKey: Guid(7807f7cc98026c84b8af4960555641b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Crystals pack/Meshes/RedCrystal00 1.fbx using Guid(7807f7cc98026c84b8af4960555641b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d6af617ae8b362a82fc2930a04196fd') in 0.0177492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
